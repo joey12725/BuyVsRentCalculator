@@ -16,9 +16,9 @@ annual_maintenance = st.number_input('Annual maintenance', value=3000)
 home_value_increase = st.number_input('Home value increase', value=3)
 home_value_once_repaired = st.number_input('Home value once repaired', value=325000)
 
-rent = st.number_input('Rent', value=1000)
-renters_insurance = st.number_input('Renters insurance', value=200)
-rent_increase = st.number_input('Rent increase', value=3)
+rent = st.number_input('Rent', value=1750)
+renters_insurance = st.number_input('Renters insurance', value=300)
+rent_increase = st.number_input('Rent increase', value=4)
 display_years = st.number_input('Years to display', value=30)
 #when her grandmother passes, the remaining balance of the mortgage will be forgiven
 years_paying_mortgage = st.number_input('Years paying mortgage', value=15)
